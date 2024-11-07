@@ -1,5 +1,6 @@
 import React from 'react';
 import './Modal.css';
+import LazyLoad from 'react-lazyload';
 
 const Modal = ({ title, content, image, isOpen, onClose, description, modalImages }) => {
   if (!isOpen) return null;
@@ -21,7 +22,7 @@ const Modal = ({ title, content, image, isOpen, onClose, description, modalImage
                     {/* Display modal images here */}
                     <div className="image-gallery">
                         {modalImages && modalImages.map((modalImage, index) => (
-                            <img key={index} src={modalImage} alt={`Modal image ${index + 1}`} className="gallery-image" />
+                            <img key={index} src={modalImage} alt={`Modal image ${index + 1}`} className="gallery-image" loading="lazy"/>
                         ))}
                     </div>
                   </div>

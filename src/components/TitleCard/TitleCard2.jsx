@@ -2,6 +2,7 @@
 import React from 'react';
 import cards_data2 from '../../assets/cards/cards_data2';
 import './TitleCard.css';
+import LazyLoad from 'react-lazyload';
 
 const TitleCard2 = ({ openModal }) => {
   return (
@@ -14,7 +15,9 @@ const TitleCard2 = ({ openModal }) => {
             key={index}
             onClick={() => openModal(card.name, card.name, card.image, card.description, card.modalImages)}
           >
-            <img src={card.image} alt={card.name} className='card-image'/>
+            <LazyLoad height={200} offset={100} once>
+              <img src={card.image} alt={card.name} className='card-image' loading="lazy"/>
+            </LazyLoad>
             <p>{card.name}</p>
           </div>
         ))}
