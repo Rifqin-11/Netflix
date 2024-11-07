@@ -8,6 +8,9 @@ import card2_2 from './Card2/card2-2.jpg';
 import card2_3 from './Card2/card2-3.jpg';
 import card2_4 from './Card2/card2-4.jpg';
 import card2_5 from './Card2/card2-5.jpg';
+import card2_6 from './Card2/card2-6.jpg';
+import card2_7 from './Card2/card2-7.jpg';
+import card2_8 from './Card2/card2-8.jpg';
 import card3_1 from './Card3/card3_1.jpg';
 import card3_2 from './Card3/card3_2.jpg';
 import card3_3 from './Card3/card3_3.jpg';
@@ -33,6 +36,7 @@ import card4_13 from './Card4/Card4-13.jpg';
 import card4_14 from './Card4/Card4_14.jpg';
 import card4_15 from './Card4/Card4-15.jpg';
 import card4_16 from './Card4/Card4-16.jpg';
+import card4_17 from './Card4/Card4-17.jpg';
 import card5_1 from './Card5/card5-1.jpg';
 import card5_2 from './Card5/card5-2.jpg';
 import card5_3 from './Card5/card5-3.jpg';
@@ -41,6 +45,14 @@ import card5_5 from './Card5/card5-5.jpg';
 import card5_6 from './Card5/card5-6.jpg';
 import card5_7 from './Card5/card5-7.jpg';
 import card5_8 from './Card5/card5-8.jpg';
+import card5_9 from './Card5/card5-9.jpg';
+import card5_10 from './Card5/card5-10.jpg';
+import card6_1 from './Card6/card6-1.jpg';
+import card6_2 from './Card6/card6-2.jpg';
+import card6_3 from './Card6/card6-3.jpg';
+import card6_4 from './Card6/card6-4.jpg';
+import card6_5 from './Card6/card6-5.jpg';
+import card6_6 from './Card6/card6-6.jpg';
 
 const cards_data = [
     {
@@ -70,8 +82,16 @@ const cards_data = [
                 name:"Dya at Pacitan"
             },
             {
-                image:card3_6,
-                name:"Iqi's 21th birthday"
+                image:card2_7,
+                name:"Dya at Pacitan"
+            },
+            {
+                image:card2_8,
+                name:"Dya at KKN"
+            },
+            {
+                image:card2_6,
+                name:"Jogging at Wonogiri"
             },
         ]
     },
@@ -122,70 +142,72 @@ const cards_data = [
     {
         title: "Dyaaa",
         contents: [
-            {
-                image:card4_1,
-                name:"Alun Alun Kauman"
-            },
+            
             {
                 image:card4_16,
                 name:"Alun-alun kauman date"
             },
             {
-                image:card4_2,
-                name:"dya kost"
-            },
-            {
-                image:card4_3,
-                name:"Lawang sewu date"
-            },
-            {
-                image:card4_4,
+                image:card4_17,
                 name:"Lawang Sewu"
             },
             {
-                image:card4_5,
-                name:"Alun-alun kauman date"
+                image:card4_2,
+                name:"at dya's house"
             },
             {
-                image:card4_6,
-                name:"Alun-alun kauman date"
+                image:card4_3,
+                name:"at dya's house"
+            },
+            {
+                image:card4_4,
+                name:"Kota Lama"
+            },
+            {
+                image:card4_1,
+                name:"Alun Alun Kauman"
+            },
+            {
+                image:card4_5,
+                name:"PAP from dya"
             },
             {
                 image:card4_7,
-                name:"Alun-alun kauman date"
+                name:"Dya at Bani Gondang"
             },
             {
                 image:card4_8,
-                name:"Alun-alun kauman date"
+                name:"Dya's PAP"
             },
             {
                 image:card4_9,
-                name:"Alun-alun kauman date"
+                name:"Dya's PAP"
             },
             {
                 image:card4_10,
-                name:"Alun-alun kauman date"
+                name:"Driving around date."
             },
             {
                 image:card4_11,
-                name:"Alun-alun kauman date"
+                name:"Dya's PAP"
             },
             {
                 image:card4_12,
-                name:"Alun-alun kauman date"
+                name:"Assignment date with Dya"
             },
             {
                 image:card4_13,
-                name:"Alun-alun kauman date"
+                name:"At Dya's house"
             },
             {
                 image:card4_14,
-                name:"Alun-alun kauman date"
+                name:"Lamongan depan Ria"
             },
             {
                 image:card4_15,
-                name:"Alun-alun kauman date"
+                name:"First date in semarang"
             },
+
             
         ]
     },
@@ -213,6 +235,14 @@ const cards_data = [
                 name:"Paragon date"
             },
             {
+                image:card5_10,
+                name:"4th anniversary date"
+            },
+            {
+                image:card5_9,
+                name:"Concert Date"
+            },
+            {
                 image:card5_1,
                 name:"Filmaking"
             },
@@ -231,11 +261,35 @@ const cards_data = [
         ]
     },
     {
-        title: "School Era",
+        title: "High School Era",
         contents: [
             {
+                image:card6_1,
+                name:"YearBook"
+            },
+            {
+                image:card6_6,
+                name:"Dya, Iqi, And opal"
+            },
+            {
+                image:card6_4,
+                name:"at Kopi Sabin"
+            },
+            {
+                image:card6_5,
+                name:"at Kopi sabin"
+            },
+            {
+                image:card6_2,
+                name:"at Dya's house"
+            },
+            {
+                image:card6_3,
+                name:"at Dya's house"
+            },
+            {
                 image:card5_1,
-                name:"iqi and dya in burpunice"
+                name:"Making a film"
             },
             {
                 image:card5_2,
@@ -245,64 +299,7 @@ const cards_data = [
                 image:card5_3,
                 name:"Lawang sewu date"
             },
-            {
-                image:card1_4,
-                name:"OTW Concert date"
-            },
-            {
-                image:card1_5,
-                name:"Alun-alun kauman date"
-            },
-        ]
-    },
-    {
-        title: "Collage Era",
-        contents: [
-            {
-                image:card1_1,
-                name:"iqi and dya in burpunice"
-            },
-            {
-                image:card1_2,
-                name:"dya kost"
-            },
-            {
-                image:card1_3,
-                name:"Lawang sewu date"
-            },
-            {
-                image:card1_4,
-                name:"OTW Concert date"
-            },
-            {
-                image:card1_5,
-                name:"Alun-alun kauman date"
-            },
-        ]
-    },
-    {
-        title: "Sleepcall",
-        contents: [
-            {
-                image:card1_1,
-                name:"iqi and dya in burpunice"
-            },
-            {
-                image:card1_2,
-                name:"dya kost"
-            },
-            {
-                image:card1_3,
-                name:"Lawang sewu date"
-            },
-            {
-                image:card1_4,
-                name:"OTW Concert date"
-            },
-            {
-                image:card1_5,
-                name:"Alun-alun kauman date"
-            },
+
         ]
     },
 ]

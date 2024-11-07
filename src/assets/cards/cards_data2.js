@@ -15,6 +15,8 @@ import card1_14 from './Card1/Card1-14.jpg';
 import card1_15 from './Card1/Card1-15.jpg';
 import card1_16 from './Card1/Card1-16.jpg';
 import card1_17 from './Card1/Card1-17.jpg';
+import card1_18 from './Card1/Card1-18.jpg';
+import Video1 from './Card1/Video1.gif';
 import modal1 from './Card1/Modal/Modal1.jpg';
 import modal2 from './Card1/Modal/Modal2.jpg';
 import modal3 from './Card1/Modal/Modal3.jpg';
@@ -47,6 +49,12 @@ const cards_data2 = [
         name:"Lawang sewu date",
         description:"aaaa ini kita pertama kalinya setelah kuliah 3 tahun di semarang ke lawang sewuu. sangat sangat pengalaman yang seru",
         modalImages: [modal4, modal5, modal6, modal7]
+    },
+    {
+        image:Video1,
+        name:"PhotoBox date",
+        description:"Photobox ke sekiann, ayok kapan photobox lagii",
+        modalImages: []
     },
     {
         image:card1_4,
